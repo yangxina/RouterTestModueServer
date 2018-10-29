@@ -1,0 +1,23 @@
+PODS:
+  - NicooSwiftRouter (0.1.2)
+  - RouterTestModulServer (0.1.0):
+    - NicooSwiftRouter
+
+DEPENDENCIES:
+  - RouterTestModulServer (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - NicooSwiftRouter
+
+EXTERNAL SOURCES:
+  RouterTestModulServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NicooSwiftRouter: 1d33f1e81760f82ca1b2bf9e455b951a02b1ca5b
+  RouterTestModulServer: 6e7030504c7a4021dc7f3cb0c41282af93786d8f
+
+PODFILE CHECKSUM: b308b91e638e5f960ca90ecf71b41ffb377ac396
+
+COCOAPODS: 1.5.0

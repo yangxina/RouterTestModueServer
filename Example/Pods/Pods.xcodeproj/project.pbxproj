@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0274A9BA724B92BCD92CB773A8244CB0 /* Target_RouterTestServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68320D61E37DFD020D21CA2688FBAE90 /* Target_RouterTestServer.swift */; };
+		153CA678A47F39E5E04889B5275DB4AA /* RouterTestModulServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA970CA8CD096B01414D600F2C74B670 /* RouterTestModulServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3805F0F7966CE23F7A8AC9A6D7EFF010 /* RouterTestModulServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F39DCE15F5D5C3630C124A66C55762CD /* RouterTestModulServer-dummy.m */; };
+		687EBAC01A8CC5EC902671CB7AC56025 /* Pods-RouterTestModulServer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FC8DA6D335C79DD78ED009D36C0DC9 /* Pods-RouterTestModulServer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7751246FB392B5EC08E8DB42EDF1051F /* Pods-RouterTestModulServer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084B59F0B46409267699548FAB076214 /* Pods-RouterTestModulServer_Tests-dummy.m */; };
+		7C3F73297F82337C8FE73388C2DD55D8 /* NicooSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B8ACC6741178440E29B68995EACA73 /* NicooSwiftRouter.framework */; };
+		84B9E8B0A0F24AE040D6293BB52D2D76 /* Pods-RouterTestModulServer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD2B3F6A62F82CF9B41C204E1B25214 /* Pods-RouterTestModulServer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3A5C653383C3D184444CA1894E0291 /* NicooSwiftRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72F4742197D3E69722C1EF89DC0F9D /* NicooSwiftRouter-dummy.m */; };
+		B4C6B09CF2665AF11496C32BD7C5FC28 /* Pods-RouterTestModulServer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818F328AE4E46B5A0EB99CEE22C84216 /* Pods-RouterTestModulServer_Example-dummy.m */; };
+		CC8FF4B100F8BEF6CF6E91BB7DC55D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
+		D43712AECBF8768D844B123E94A1A574 /* NicooSwiftRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAAC0A95879139FBF18400CA885329B /* NicooSwiftRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAFF341599352F5C5F07DEA6D35DF852 /* NicooSwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98364B28704B0AE16CFBC107BB45EE47 /* NicooSwiftRouter.swift */; };
+		E359234F5FC9F8786E72BA95BB4D6141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
+		E7115CB915CFB3AD8A32109CA7E571B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
+		FF3E59CC8FDFBA80F0460B9D133FAF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56886351F09966A54EC1BBB721FED81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1359DFAC0F36F2F8751EF6FF8F9E6726;
+			remoteInfo = "Pods-RouterTestModulServer_Example";
+		};
+		66AD7C480465B7720437230A95F83973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C29EFAFD2B219FA9607312EB8CF177A;
+			remoteInfo = RouterTestModulServer;
+		};
+		7F42F5F98985FC5CA1AAFA614101A3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EE859E08FCAE3C74BF033F25304B9D;
+			remoteInfo = NicooSwiftRouter;
+		};
+		E162440FED83737CD3DC3D4B1FD8005C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EE859E08FCAE3C74BF033F25304B9D;
+			remoteInfo = NicooSwiftRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033C31A845B9F07F37E729AC201DE726 /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NicooSwiftRouter.framework; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E2CC7692337F245915073584977EA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		084B59F0B46409267699548FAB076214 /* Pods-RouterTestModulServer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouterTestModulServer_Tests-dummy.m"; sourceTree = "<group>"; };
+		0E250D86FD0D58B544978D4559443888 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D44DBF96BFC815DE14BDAEC1765CEE /* Pods-RouterTestModulServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModulServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		181A00D9EDDD0A707BC92C320CE232B5 /* RouterTestModulServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RouterTestModulServer.framework; path = RouterTestModulServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2259FC5B2116125A2049278FF667FF87 /* Pods-RouterTestModulServer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouterTestModulServer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29E0BFE9D4C0DBA4B71E90D02877EB6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE0FA3869E0D0C1A1E8B99C555605A2 /* Pods-RouterTestModulServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModulServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF9DB9F0B758BE4CD8D283471DEC69D /* Pods-RouterTestModulServer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModulServer_Example-resources.sh"; sourceTree = "<group>"; };
+		3006E79D0465AD1904CABB9B254B3419 /* Pods-RouterTestModulServer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModulServer_Tests-resources.sh"; sourceTree = "<group>"; };
+		30D1193A23B8545D58D15D2FAE2AE7E6 /* Pods-RouterTestModulServer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouterTestModulServer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EF6048FB543859D84B10AECFB66CB6B /* RouterTestModulServer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RouterTestModulServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		452D7B786ABC6F536A3B3A734234F7E0 /* Pods-RouterTestModulServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModulServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9E1019389103DA2B0FE2ED5E6C4829 /* NicooSwiftRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooSwiftRouter.modulemap; sourceTree = "<group>"; };
+		4D72F4742197D3E69722C1EF89DC0F9D /* NicooSwiftRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooSwiftRouter-dummy.m"; sourceTree = "<group>"; };
+		4DD2B3F6A62F82CF9B41C204E1B25214 /* Pods-RouterTestModulServer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouterTestModulServer_Example-umbrella.h"; sourceTree = "<group>"; };
+		54C558B3E457D70743330426E63380B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562687FE8981E6536363723AAFCD9426 /* Pods-RouterTestModulServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModulServer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		57FC8DA6D335C79DD78ED009D36C0DC9 /* Pods-RouterTestModulServer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouterTestModulServer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68320D61E37DFD020D21CA2688FBAE90 /* Target_RouterTestServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_RouterTestServer.swift; path = RouterTestModulServer/Classes/Target_RouterTestServer.swift; sourceTree = "<group>"; };
+		6833C1CAA462AD3F90881448C8105C7E /* Pods-RouterTestModulServer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModulServer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7043163821DBF1646E4A1C29235E445D /* Pods-RouterTestModulServer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RouterTestModulServer_Example.modulemap"; sourceTree = "<group>"; };
+		818F328AE4E46B5A0EB99CEE22C84216 /* Pods-RouterTestModulServer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouterTestModulServer_Example-dummy.m"; sourceTree = "<group>"; };
+		85D80EDA9642606151ECA3876A02827C /* NicooSwiftRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooSwiftRouter-prefix.pch"; sourceTree = "<group>"; };
+		8EAAC0A95879139FBF18400CA885329B /* NicooSwiftRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooSwiftRouter-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9579CF9F9E8C57587248FC87EDFDF9AF /* NicooSwiftRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooSwiftRouter.xcconfig; sourceTree = "<group>"; };
+		98364B28704B0AE16CFBC107BB45EE47 /* NicooSwiftRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooSwiftRouter.swift; path = NicooSwiftRouter/Classes/NicooSwiftRouter.swift; sourceTree = "<group>"; };
+		9B8307AF9E1B9FE850B374E564C8E927 /* Pods_RouterTestModulServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouterTestModulServer_Example.framework; path = "Pods-RouterTestModulServer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80AD77A9B7BA6B540B15E81A1999CA0 /* RouterTestModulServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RouterTestModulServer.modulemap; sourceTree = "<group>"; };
+		BDEFC50699C5F4A7E5EE543CCEF0FDC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6F0D102EF1E2697D8318D442985CD1 /* RouterTestModulServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouterTestModulServer.xcconfig; sourceTree = "<group>"; };
+		D20BF787F749A702E10D8819AD1F805B /* Pods-RouterTestModulServer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouterTestModulServer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5648B5534BEABB1AA51B8C541ED50AA /* Pods_RouterTestModulServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouterTestModulServer_Tests.framework; path = "Pods-RouterTestModulServer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8620D8FAE23988F57E1326F34324403 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E68EC61879295051BF927E0F536FACD4 /* RouterTestModulServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModulServer-prefix.pch"; sourceTree = "<group>"; };
+		EA970CA8CD096B01414D600F2C74B670 /* RouterTestModulServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModulServer-umbrella.h"; sourceTree = "<group>"; };
+		F01FF502E1A9F9DF2A2EEFF74B302F09 /* Pods-RouterTestModulServer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouterTestModulServer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F36AE5B3AE544441A513DF660D5B9AA8 /* Pods-RouterTestModulServer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RouterTestModulServer_Tests.modulemap"; sourceTree = "<group>"; };
+		F39DCE15F5D5C3630C124A66C55762CD /* RouterTestModulServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouterTestModulServer-dummy.m"; sourceTree = "<group>"; };
+		F45850D874FFA151D7BF8F73B5B80391 /* Pods-RouterTestModulServer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModulServer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F4B8ACC6741178440E29B68995EACA73 /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5F7FD62F2C40E7C66D0FBA4493F4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7115CB915CFB3AD8A32109CA7E571B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FB5C4AC49C53D8B55450B42D9E7EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E59CC8FDFBA80F0460B9D133FAF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159E79A122B47C026C556B63869D370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359234F5FC9F8786E72BA95BB4D6141 /* Foundation.framework in Frameworks */,
+				7C3F73297F82337C8FE73388C2DD55D8 /* NicooSwiftRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A459671908FF75C6AFA335E8ECE294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8FF4B100F8BEF6CF6E91BB7DC55D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10938E237C9F9898858D7F1E123B00A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E0BFE9D4C0DBA4B71E90D02877EB6C /* Info.plist */,
+				A80AD77A9B7BA6B540B15E81A1999CA0 /* RouterTestModulServer.modulemap */,
+				CD6F0D102EF1E2697D8318D442985CD1 /* RouterTestModulServer.xcconfig */,
+				F39DCE15F5D5C3630C124A66C55762CD /* RouterTestModulServer-dummy.m */,
+				E68EC61879295051BF927E0F536FACD4 /* RouterTestModulServer-prefix.pch */,
+				EA970CA8CD096B01414D600F2C74B670 /* RouterTestModulServer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RouterTestModulServer";
+			sourceTree = "<group>";
+		};
+		2BDDC1CC82E4BE7F2FAD9EF51C9519B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C7A63C011416E12FD32E620200473D /* NicooSwiftRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61E0B37E263BF09917A350FA142EBCB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B8ACC6741178440E29B68995EACA73 /* NicooSwiftRouter.framework */,
+				D0D9E7CAB2F701DAB1FA58B09CA89AE3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69184F83E05CF95580043A16B2D55D5F /* Pods-RouterTestModulServer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFC50699C5F4A7E5EE543CCEF0FDC8 /* Info.plist */,
+				F36AE5B3AE544441A513DF660D5B9AA8 /* Pods-RouterTestModulServer_Tests.modulemap */,
+				30D1193A23B8545D58D15D2FAE2AE7E6 /* Pods-RouterTestModulServer_Tests-acknowledgements.markdown */,
+				F01FF502E1A9F9DF2A2EEFF74B302F09 /* Pods-RouterTestModulServer_Tests-acknowledgements.plist */,
+				084B59F0B46409267699548FAB076214 /* Pods-RouterTestModulServer_Tests-dummy.m */,
+				F45850D874FFA151D7BF8F73B5B80391 /* Pods-RouterTestModulServer_Tests-frameworks.sh */,
+				3006E79D0465AD1904CABB9B254B3419 /* Pods-RouterTestModulServer_Tests-resources.sh */,
+				57FC8DA6D335C79DD78ED009D36C0DC9 /* Pods-RouterTestModulServer_Tests-umbrella.h */,
+				2CE0FA3869E0D0C1A1E8B99C555605A2 /* Pods-RouterTestModulServer_Tests.debug.xcconfig */,
+				10D44DBF96BFC815DE14BDAEC1765CEE /* Pods-RouterTestModulServer_Tests.release.xcconfig */,
+			);
+			name = "Pods-RouterTestModulServer_Tests";
+			path = "Target Support Files/Pods-RouterTestModulServer_Tests";
+			sourceTree = "<group>";
+		};
+		7C319B32AA9348752E5FACB9684350DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF50BFFF909EB1875289D1E9824DA3 /* Pods-RouterTestModulServer_Example */,
+				69184F83E05CF95580043A16B2D55D5F /* Pods-RouterTestModulServer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F0218EDFFEC635721A87BD1A4028998F /* Development Pods */,
+				61E0B37E263BF09917A350FA142EBCB8 /* Frameworks */,
+				2BDDC1CC82E4BE7F2FAD9EF51C9519B1 /* Pods */,
+				9D4C6F401F43F52E1D7B6BA921BC14F7 /* Products */,
+				7C319B32AA9348752E5FACB9684350DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D4C6F401F43F52E1D7B6BA921BC14F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033C31A845B9F07F37E729AC201DE726 /* NicooSwiftRouter.framework */,
+				9B8307AF9E1B9FE850B374E564C8E927 /* Pods_RouterTestModulServer_Example.framework */,
+				D5648B5534BEABB1AA51B8C541ED50AA /* Pods_RouterTestModulServer_Tests.framework */,
+				181A00D9EDDD0A707BC92C320CE232B5 /* RouterTestModulServer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DD944624E734AC97E8C0DD47A461D0 /* RouterTestModulServer */ = {
+			isa = PBXGroup;
+			children = (
+				68320D61E37DFD020D21CA2688FBAE90 /* Target_RouterTestServer.swift */,
+				DABF98B2C134478B7876900BB047E003 /* Pod */,
+				10938E237C9F9898858D7F1E123B00A7 /* Support Files */,
+			);
+			name = RouterTestModulServer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D0D9E7CAB2F701DAB1FA58B09CA89AE3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4B7B0C8D85515719158408B262733F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E250D86FD0D58B544978D4559443888 /* Info.plist */,
+				4C9E1019389103DA2B0FE2ED5E6C4829 /* NicooSwiftRouter.modulemap */,
+				9579CF9F9E8C57587248FC87EDFDF9AF /* NicooSwiftRouter.xcconfig */,
+				4D72F4742197D3E69722C1EF89DC0F9D /* NicooSwiftRouter-dummy.m */,
+				85D80EDA9642606151ECA3876A02827C /* NicooSwiftRouter-prefix.pch */,
+				8EAAC0A95879139FBF18400CA885329B /* NicooSwiftRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NicooSwiftRouter";
+			sourceTree = "<group>";
+		};
+		DABF98B2C134478B7876900BB047E003 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8620D8FAE23988F57E1326F34324403 /* LICENSE */,
+				04E2CC7692337F245915073584977EA3 /* README.md */,
+				3EF6048FB543859D84B10AECFB66CB6B /* RouterTestModulServer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F0218EDFFEC635721A87BD1A4028998F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DD944624E734AC97E8C0DD47A461D0 /* RouterTestModulServer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F0C7A63C011416E12FD32E620200473D /* NicooSwiftRouter */ = {
+			isa = PBXGroup;
+			children = (
+				98364B28704B0AE16CFBC107BB45EE47 /* NicooSwiftRouter.swift */,
+				D4B7B0C8D85515719158408B262733F9 /* Support Files */,
+			);
+			name = NicooSwiftRouter;
+			path = NicooSwiftRouter;
+			sourceTree = "<group>";
+		};
+		FFAF50BFFF909EB1875289D1E9824DA3 /* Pods-RouterTestModulServer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				54C558B3E457D70743330426E63380B1 /* Info.plist */,
+				7043163821DBF1646E4A1C29235E445D /* Pods-RouterTestModulServer_Example.modulemap */,
+				D20BF787F749A702E10D8819AD1F805B /* Pods-RouterTestModulServer_Example-acknowledgements.markdown */,
+				2259FC5B2116125A2049278FF667FF87 /* Pods-RouterTestModulServer_Example-acknowledgements.plist */,
+				818F328AE4E46B5A0EB99CEE22C84216 /* Pods-RouterTestModulServer_Example-dummy.m */,
+				6833C1CAA462AD3F90881448C8105C7E /* Pods-RouterTestModulServer_Example-frameworks.sh */,
+				2FF9DB9F0B758BE4CD8D283471DEC69D /* Pods-RouterTestModulServer_Example-resources.sh */,
+				4DD2B3F6A62F82CF9B41C204E1B25214 /* Pods-RouterTestModulServer_Example-umbrella.h */,
+				452D7B786ABC6F536A3B3A734234F7E0 /* Pods-RouterTestModulServer_Example.debug.xcconfig */,
+				562687FE8981E6536363723AAFCD9426 /* Pods-RouterTestModulServer_Example.release.xcconfig */,
+			);
+			name = "Pods-RouterTestModulServer_Example";
+			path = "Target Support Files/Pods-RouterTestModulServer_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19DB09B3468E578486959503ABD1026B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CA678A47F39E5E04889B5275DB4AA /* RouterTestModulServer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578EC8221849AAA2DB52B4494778E6F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9E8B0A0F24AE040D6293BB52D2D76 /* Pods-RouterTestModulServer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD682404F18D9B216E0D44DA1871B125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687EBAC01A8CC5EC902671CB7AC56025 /* Pods-RouterTestModulServer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2982CEED8B4A69BCD3A075635517E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43712AECBF8768D844B123E94A1A574 /* NicooSwiftRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1359DFAC0F36F2F8751EF6FF8F9E6726 /* Pods-RouterTestModulServer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E3D664861E70BE6C242E05462FC470 /* Build configuration list for PBXNativeTarget "Pods-RouterTestModulServer_Example" */;
+			buildPhases = (
+				E1C9B0BFB769593B1151DD422DB69F25 /* Sources */,
+				3F5F7FD62F2C40E7C66D0FBA4493F4B8 /* Frameworks */,
+				578EC8221849AAA2DB52B4494778E6F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33673B86651E1644081CB94226F1657E /* PBXTargetDependency */,
+				737FEA42F577A910015CB2EBE0FCFEB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-RouterTestModulServer_Example";
+			productName = "Pods-RouterTestModulServer_Example";
+			productReference = 9B8307AF9E1B9FE850B374E564C8E927 /* Pods_RouterTestModulServer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C29EFAFD2B219FA9607312EB8CF177A /* RouterTestModulServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0E577751FD65C24CF4F89EE87E6E5B /* Build configuration list for PBXNativeTarget "RouterTestModulServer" */;
+			buildPhases = (
+				B6B9A65D0C103F4944AD42820CAD6A79 /* Sources */,
+				8159E79A122B47C026C556B63869D370 /* Frameworks */,
+				19DB09B3468E578486959503ABD1026B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0057C6EA5E341A2AB3FF4E85E684C1E /* PBXTargetDependency */,
+			);
+			name = RouterTestModulServer;
+			productName = RouterTestModulServer;
+			productReference = 181A00D9EDDD0A707BC92C320CE232B5 /* RouterTestModulServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7862FCD6678F308E75478BB8F249F1D /* Build configuration list for PBXNativeTarget "NicooSwiftRouter" */;
+			buildPhases = (
+				10B585C7597920C0FC0172B70E51CC36 /* Sources */,
+				57FB5C4AC49C53D8B55450B42D9E7EF0 /* Frameworks */,
+				E2982CEED8B4A69BCD3A075635517E91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicooSwiftRouter;
+			productName = NicooSwiftRouter;
+			productReference = 033C31A845B9F07F37E729AC201DE726 /* NicooSwiftRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DDD6BD8BF8DBBAE9A7D43174D5742C1 /* Pods-RouterTestModulServer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D903D8E17C3F586F9E8D6243B99091 /* Build configuration list for PBXNativeTarget "Pods-RouterTestModulServer_Tests" */;
+			buildPhases = (
+				F7F0682542225F9A339D39E4047A042B /* Sources */,
+				B6A459671908FF75C6AFA335E8ECE294 /* Frameworks */,
+				DD682404F18D9B216E0D44DA1871B125 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715EC04B4B37097C9BEE7D6481B675E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-RouterTestModulServer_Tests";
+			productName = "Pods-RouterTestModulServer_Tests";
+			productReference = D5648B5534BEABB1AA51B8C541ED50AA /* Pods_RouterTestModulServer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9D4C6F401F43F52E1D7B6BA921BC14F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */,
+				1359DFAC0F36F2F8751EF6FF8F9E6726 /* Pods-RouterTestModulServer_Example */,
+				8DDD6BD8BF8DBBAE9A7D43174D5742C1 /* Pods-RouterTestModulServer_Tests */,
+				1C29EFAFD2B219FA9607312EB8CF177A /* RouterTestModulServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B585C7597920C0FC0172B70E51CC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A5C653383C3D184444CA1894E0291 /* NicooSwiftRouter-dummy.m in Sources */,
+				DAFF341599352F5C5F07DEA6D35DF852 /* NicooSwiftRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B9A65D0C103F4944AD42820CAD6A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3805F0F7966CE23F7A8AC9A6D7EFF010 /* RouterTestModulServer-dummy.m in Sources */,
+				0274A9BA724B92BCD92CB773A8244CB0 /* Target_RouterTestServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C9B0BFB769593B1151DD422DB69F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C6B09CF2665AF11496C32BD7C5FC28 /* Pods-RouterTestModulServer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F0682542225F9A339D39E4047A042B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7751246FB392B5EC08E8DB42EDF1051F /* Pods-RouterTestModulServer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33673B86651E1644081CB94226F1657E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooSwiftRouter;
+			target = 51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */;
+			targetProxy = 7F42F5F98985FC5CA1AAFA614101A3D8 /* PBXContainerItemProxy */;
+		};
+		715EC04B4B37097C9BEE7D6481B675E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RouterTestModulServer_Example";
+			target = 1359DFAC0F36F2F8751EF6FF8F9E6726 /* Pods-RouterTestModulServer_Example */;
+			targetProxy = 56886351F09966A54EC1BBB721FED81F /* PBXContainerItemProxy */;
+		};
+		737FEA42F577A910015CB2EBE0FCFEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RouterTestModulServer;
+			target = 1C29EFAFD2B219FA9607312EB8CF177A /* RouterTestModulServer */;
+			targetProxy = 66AD7C480465B7720437230A95F83973 /* PBXContainerItemProxy */;
+		};
+		C0057C6EA5E341A2AB3FF4E85E684C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooSwiftRouter;
+			target = 51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */;
+			targetProxy = E162440FED83737CD3DC3D4B1FD8005C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036938E37B13F9AA45A5F5C4870028D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9579CF9F9E8C57587248FC87EDFDF9AF /* NicooSwiftRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooSwiftRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter.modulemap";
+				PRODUCT_MODULE_NAME = NicooSwiftRouter;
+				PRODUCT_NAME = NicooSwiftRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DC207A9FCB13DB565892027E496D74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE0FA3869E0D0C1A1E8B99C555605A2 /* Pods-RouterTestModulServer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RouterTestModulServer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouterTestModulServer_Tests/Pods-RouterTestModulServer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A9C47B9330C3E7E2018963FFBCC694F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562687FE8981E6536363723AAFCD9426 /* Pods-RouterTestModulServer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RouterTestModulServer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouterTestModulServer_Example/Pods-RouterTestModulServer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E41C382B84E59704F9CA20239ED648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6F0D102EF1E2697D8318D442985CD1 /* RouterTestModulServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RouterTestModulServer/RouterTestModulServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouterTestModulServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouterTestModulServer/RouterTestModulServer.modulemap";
+				PRODUCT_MODULE_NAME = RouterTestModulServer;
+				PRODUCT_NAME = RouterTestModulServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59D1EB3B99DD84D5A71E0A58F5290DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6F0D102EF1E2697D8318D442985CD1 /* RouterTestModulServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RouterTestModulServer/RouterTestModulServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouterTestModulServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouterTestModulServer/RouterTestModulServer.modulemap";
+				PRODUCT_MODULE_NAME = RouterTestModulServer;
+				PRODUCT_NAME = RouterTestModulServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AC82B5B5DCB7E1209FD043C84915789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452D7B786ABC6F536A3B3A734234F7E0 /* Pods-RouterTestModulServer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RouterTestModulServer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouterTestModulServer_Example/Pods-RouterTestModulServer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A89B00B382E911B43A88CA7355BA18FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D44DBF96BFC815DE14BDAEC1765CEE /* Pods-RouterTestModulServer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RouterTestModulServer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouterTestModulServer_Tests/Pods-RouterTestModulServer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ECEF9AEA332117C83B387931EB61BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9579CF9F9E8C57587248FC87EDFDF9AF /* NicooSwiftRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooSwiftRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter.modulemap";
+				PRODUCT_MODULE_NAME = NicooSwiftRouter;
+				PRODUCT_NAME = NicooSwiftRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E3D664861E70BE6C242E05462FC470 /* Build configuration list for PBXNativeTarget "Pods-RouterTestModulServer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC82B5B5DCB7E1209FD043C84915789 /* Debug */,
+				2A9C47B9330C3E7E2018963FFBCC694F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7862FCD6678F308E75478BB8F249F1D /* Build configuration list for PBXNativeTarget "NicooSwiftRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036938E37B13F9AA45A5F5C4870028D2 /* Debug */,
+				ECEF9AEA332117C83B387931EB61BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D903D8E17C3F586F9E8D6243B99091 /* Build configuration list for PBXNativeTarget "Pods-RouterTestModulServer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC207A9FCB13DB565892027E496D74C /* Debug */,
+				A89B00B382E911B43A88CA7355BA18FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0E577751FD65C24CF4F89EE87E6E5B /* Build configuration list for PBXNativeTarget "RouterTestModulServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D1EB3B99DD84D5A71E0A58F5290DE8 /* Debug */,
+				3E41C382B84E59704F9CA20239ED648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
