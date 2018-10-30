@@ -10,7 +10,10 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+     
+     这个组件 实际上是从RouterTestModule 分离出来的，如果别的组件（如 RightMuneTabel）使用URL索引的方式调用RouterTestModule 中的方法,
+     则不需要这个组件。 但是URL的方式无法实现回调，而且，url的方式在项目后期，URL满天飞，不好管理。所以 这类服务组件就存在了。此组件作为    “RouterTestModule” 的服务组件，别的组件依赖 此组件， 就可以通过 路由调用此组件内的Api 间接调用 “RouterTestModule” 中对外暴露的API。
+ 
     此组件，其实是为组件 “RouterTestModule” 提供服务的一个服务组件。它的作用是
     
     其他组件（如：“RightMuneTabel” 组件）依赖它之后，可以通过它调用 组件 “RouterTestModule” 对外提供的API，如下两个API： 
